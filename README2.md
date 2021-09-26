@@ -35,6 +35,8 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://imgur.com/XMAX0Jj.gif' title='TwitterApp' width='' alt='Video Walkthrough' />
 
+link to the [GIF](https://imgur.com/LhxPZWz.gif).
+
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
