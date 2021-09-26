@@ -22,8 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_marginTop="0dp"
-        android:layout_toEndOf="@+id/ivProfileImage"
-        tools:text="hali" />
+        android:layout_toEndOf="@+id/tvUserName"
+        tools:text="@hali" />
 
     <TextView
         android:id="@+id/tvBody"
@@ -36,12 +36,23 @@
         tools:text="This is my tweet!!" />
 
     <TextView
-        android:id="@+id/tvTime"
+        android:id="@+id/tvCreatedAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvBody"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="0dp"
+        tools:text="time" />
+
+    <TextView
+        android:id="@+id/tvUserName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/tvBody"
         android:layout_marginStart="5dp"
         android:layout_marginBottom="0dp"
-        android:layout_toEndOf="@+id/tvScreenName"
-        tools:text="time" />
+        android:layout_toEndOf="@+id/ivProfileImage"
+        tools:text="hali" />
 </RelativeLayout>

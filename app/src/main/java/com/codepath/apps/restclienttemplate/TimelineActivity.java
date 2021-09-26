@@ -66,7 +66,6 @@ public class TimelineActivity extends AppCompatActivity {
             public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
                 Log.i(TAG,"onLoadMore: " + page);
                 loadMoreData();
-
             }
         };
         // Adds the scroll listener to RecyclerView
@@ -91,9 +90,6 @@ public class TimelineActivity extends AppCompatActivity {
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-
-
-
             }
 
             @Override

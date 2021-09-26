@@ -14,7 +14,6 @@ public class Tweet {
     public String body;
     public String createdAt;
     public User user;
-
     public long id;
 
     public static Tweet fromJson(JSONObject jsonObject) throws JSONException {
@@ -33,8 +32,4 @@ public class Tweet {
         }
         return tweets;
     }
-
-//    public int getFormattedTimestamp() {
-//
-//    }
 }
